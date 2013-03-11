@@ -76,7 +76,7 @@ public class VarastoTest {
     public void lisataanLiikaa() {
         varasto.lisaaVarastoon(11);
         
-        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(100, varasto.getSaldo(), vertailuTarkkuus);
         
     }
     
