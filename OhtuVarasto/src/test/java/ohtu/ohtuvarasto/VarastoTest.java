@@ -90,7 +90,7 @@ public class VarastoTest {
     }
     
     @Test
-    public void otetaanNegatiivinenmaara() {
+    public void otetaanNegatiivinenMaara() {
         varasto.otaVarastosta(-1);
         
         assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
